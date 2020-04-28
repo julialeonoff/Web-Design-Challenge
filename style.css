@@ -1,0 +1,142 @@
+body {
+    font-family: Calibri;
+    font-size: 20px;
+    background-color:#eee;
+    }
+
+a {
+    color: beige;
+    font-size: 16px;
+    }
+
+a:hover {
+    color: rgb(172, 172, 172);
+    }
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 0;
+    }
+  
+.navbar-brand {
+    font-family: 'Calibri';
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: rgb(241, 241, 225);
+    padding: 10px;
+    margin-left: 7%;
+    color: navy
+    }
+  
+.navbar-collapse {
+    font-size: small;
+    background-color: rgb(0, 0, 0);
+    margin-right: 7%;    
+    }
+  
+.box {
+    padding: 10px 20px 15px; 
+    color:black;
+    background-color: white; 
+    }
+
+#table-width {
+    width: 100%; 
+    }
+
+.row {
+    margin: 20px auto;
+    padding-top: 2%;
+    }
+
+#bottom {
+    padding-bottom: 40px;
+    }
+  
+.text-left {
+    text-align: left;
+    color: navy;
+    font-family: 'Calibri';
+    font-weight: bolder;
+    margin-top: 10px;
+    }
+  
+.text-center {
+    color: black;
+    font-family: 'Calibri';
+    font-weight: bolder;
+    }
+
+.comps {
+    width: 100% !important;
+    height: 100% !important;
+    }
+
+p {
+    text-align: justify;
+    color: #7e7e7e;
+    }
+  
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+    }
+
+.thumbnail {
+    width: 50%;
+}
+
+#table {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-width: auto;
+    font-size: 14px;
+    border-top-color: white !important;
+    }
+
+#active, .comps:hover, #hover:hover{
+    border-color: navy;
+    border-style: solid; 
+    }
+
+footer {
+    background-color: #706f6f; 
+    border-top-style: solid; 
+    border-top-width: 5px; 
+    border-top-color: rgb(226, 226, 197);
+    color: white; 
+    min-height: 55px; 
+    font-family: 'Calibri';
+    font-size: 16px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 12px; 
+    }
+
+@media(max-width: 992px){
+    button {
+        margin-right: 9px; 
+        }
+
+    #mobile-text {
+        margin-top: 5%
+        }
+
+    .box {
+        margin-bottom: 5%
+        }
+
+    .navbar div {
+        margin: inherit;
+        }
+    
+    #mobile-row {
+        margin-bottom: 50px;
+        }
+    }
